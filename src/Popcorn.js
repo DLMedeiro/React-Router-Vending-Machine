@@ -5,7 +5,7 @@ import VendingMachine from "./VendingMachine";
 const GummyBears = () => {
   return (
     <div>
-      <Link to="/VendingMachine" className="home">
+      <Link to="/" className="home">
         Back to Vending Machine
       </Link>
       <h1>Popcorn</h1>
