@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Route exact path="/">
+        <Route exact path="/React-Router-Vending-Machine">
           <VendingMachine />
         </Route>
         <Route exact path="/Popcorn">
