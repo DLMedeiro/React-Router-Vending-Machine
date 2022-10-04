@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Route exact path="/VendingMachine">
+        <Route exact path="/">
           <VendingMachine />
         </Route>
         <Route exact path="/Popcorn">
