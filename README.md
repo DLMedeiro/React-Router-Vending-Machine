@@ -1,6 +1,6 @@
 # Vending Machine
 
-Check it out at: 
+Check it out at: "https://dlmedeiro.github.io/React-Router-Vending-Machine"
 
 Vending Machine made using React Router.
 
