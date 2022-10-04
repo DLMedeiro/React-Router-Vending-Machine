@@ -1,16 +1,20 @@
-import React from 'react'
+import React from "react";
+import "./VendingMachine.css";
 
+import { Link } from "react-router-dom";
 
-function VendingMachine() {
+const VendingMachine = () => {
   return (
-    <div>
+    <div className="machine">
       <h1>Vending Machine</h1>
-      <img
-        src= "https://images.pexels.com/photos/4062267/pexels-photo-4062267.jpeg?auto=compress&cs=tinysrgb&w=300"
-        alt= "Vending Machine"
-      />
+      <div className="options">
+        <Link to="/Oreos">Oreos</Link>
+        <Link to="/Candy">Candy</Link>
+        <Link to="/Popcorn">Popcorn</Link>
+        <Link to="/Pretzels">Pretzels</Link>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default VendingMachine;
