@@ -4,14 +4,14 @@ import Popcorn from "./Popcorn";
 import Candy from "./Candy";
 import Oreos from "./Oreos";
 import Pretzels from "./Pretzles";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, HashRouter } from "react-router-dom";
 import VendingMachine from "./VendingMachine";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Route exact path="/React-Router-Vending-Machine">
+      <HashRouter>
+        <Route exact path="/">
           <VendingMachine />
         </Route>
         <Route exact path="/Popcorn">
@@ -29,7 +29,7 @@ function App() {
         <Route exact path="/Pretzels">
           <Pretzels />
         </Route>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Candy() {
   return (
     <div>
-      <Link to="/React-Router-Vending-Machine" className="home">
+      <Link to="/" className="home">
         Back to Vending Machine
       </Link>
       <h1>Candy</h1>
