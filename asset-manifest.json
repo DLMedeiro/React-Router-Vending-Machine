@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Router-Vending-Machine/static/css/main.da911521.css",
-    "main.js": "/React-Router-Vending-Machine/static/js/main.7e7473c2.js",
+    "main.js": "/React-Router-Vending-Machine/static/js/main.db2770df.js",
     "static/media/vendingMachine.jpg": "/React-Router-Vending-Machine/static/media/vendingMachine.59bb5ac472f19238468c.jpg",
     "static/media/oreos.jpg": "/React-Router-Vending-Machine/static/media/oreos.380b06c7b2bdc6e5c943.jpg",
     "static/media/candy.jpg": "/React-Router-Vending-Machine/static/media/candy.9d55376badc94342a690.jpg",
@@ -9,10 +9,10 @@
     "static/media/popcorn.jpg": "/React-Router-Vending-Machine/static/media/popcorn.3fbe3fd107b17f407738.jpg",
     "index.html": "/React-Router-Vending-Machine/index.html",
     "main.da911521.css.map": "/React-Router-Vending-Machine/static/css/main.da911521.css.map",
-    "main.7e7473c2.js.map": "/React-Router-Vending-Machine/static/js/main.7e7473c2.js.map"
+    "main.db2770df.js.map": "/React-Router-Vending-Machine/static/js/main.db2770df.js.map"
   },
   "entrypoints": [
     "static/css/main.da911521.css",
-    "static/js/main.7e7473c2.js"
+    "static/js/main.db2770df.js"
   ]
 }
